@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nome-loja{
+  font-family:  "Archivo Black", sans-serif;
+  position: absolute;
+  left: 40%;
+  top: 3%;
+  color: white;
+  font-weight: bolder;
+}
+img{
+    position: relative;
+    top: 5%;
+}
+.cabecalho{
+    background-color: rgb(1, 12, 44);
+}
+.texto-gif{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2rem
+}
+.contain-gerador{
+    max-width: 30%;
+
+}
