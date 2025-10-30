@@ -12,11 +12,22 @@
         <img class="logo-zeiss" src="Zeiss-Logo.png" alt="imagem logo zeiss" height="90px">
         <h1 class="nome-loja">Zeiss Visum Center</h1>
     </header>
+    <h1 class="titulo">Gerador de QR code</h1>
     <section class="contain-gerador">
-        <h1>Gerador de QR code</h1>
-        <input type="text">
-        <button>Gerar</button>
-    </section>
+        <div class="contanner-input">
+            <input type="text" class="input" placeholder="Digite aqui">
+            <button onclick="genQRcode()">Gerar QR Code</button>
+        </div>
 
+        <div class="qrcode-contanner">
+            <img class="qrcode-img" src="" alt="">
+        </div>
+    </section>
+    <footer>
+        <span>
+            <p>Desenvolvido por: Arthur Santiago</p>
+        </span>
+    </footer>
+    <script src="code.js"></script>
 </body>
 </html>

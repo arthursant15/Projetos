@@ -13,18 +13,100 @@
   color: white;
   font-weight: bolder;
 }
+header{
+    padding-block: 10px;
+}
 img{
     position: relative;
     top: 5%;
 }
 .cabecalho{
-    background-color: rgb(1, 12, 44);
+    background-color: #010c2c;
 }
 .texto-gif{
     font-family: "Archivo Black", sans-serif;
     font-size: 2rem
 }
-.contain-gerador{
-    max-width: 30%;
+.titulo{
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    max-width: 70%;
+}
+.contanner-input{
+    position: relative;
+    top: 35%;
+    padding-left: 10%;
 
+}
+.contain-gerador{
+    background-color:#fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 1px 10px gray;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    
+}
+.qrcode-img{
+    position: relative;
+    left: 65%;
+
+}
+input{
+    width: 45%;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+    font-size: 25px;
+    position: relative;
+    font-family:  "Archivo Black", sans-serif;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+    border-color:#010c2c ;
+    transition: 0.7s;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.815), #010c2c2a);
+    border-radius: 10px;
+}
+button{
+    background-color: #010c2c;
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: -472px;
+    width: 45%;
+}
+button:hover{
+    background-color: #010c2c9d;
+    transition: 0.8s;
+}
+.qrcode-contanner{
+    display: flex;
+}
+footer{
+    background-color: #010c2c;
+    position: absolute;
+    width: 100vw;
+    top: 90%;
+    height: 10%;
+    color: white;
+    font-family:  "Archivo Black", sans-serif;
+}
+span{
+    font-size: 15pt;
+    position: relative;
+    top: 30px;
 }
